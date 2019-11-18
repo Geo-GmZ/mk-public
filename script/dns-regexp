@@ -1,0 +1,15 @@
+/ip dns static
+add address=127.0.0.1 regexp=".\?adservices\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?doubleclick\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?nexage\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?akadns\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?googlesyndication\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?redirector\\.googlevideo\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?tubemogul\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?innovid\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?youtube-nocookie\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?googleadservices\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp="\\w+\?[-.]\?\\w+\?[-.]\?doubleclick\\.(net|com)" ttl=1d50s
+add address=127.0.0.1 regexp=".\?-[a-z]+\\.[a-z]+\\.google\\.(com|net|org|io|ads|app|analytics)" ttl=1d30s
+add address=127.0.0.1 regexp=".\?cdn.adsafeprotected.com"
+add address=127.0.0.1 regexp=".\?-adsystem.com"
