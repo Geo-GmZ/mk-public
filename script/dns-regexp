@@ -12,4 +12,4 @@ add address=127.0.0.1 regexp=".\?googleadservices\\.(com|net|org|io|ads|app|anal
 add address=127.0.0.1 regexp="\\w+\?[-.]\?\\w+\?[-.]\?doubleclick\\.(net|com)" ttl=1d
 add address=127.0.0.1 regexp=".\?-[a-z]+\\.[a-z]+\\.google\\.(com|net|org|io|ads|app|analytics)" ttl=1d
 add address=127.0.0.1 regexp=".\?cdn.adsafeprotected.com" ttl=1d
-add address=127.0.0.1 regexp=".\?-adsystem.com" ttl=1d
+
