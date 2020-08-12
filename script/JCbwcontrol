@@ -1,0 +1,8 @@
+/queue type
+add kind=pcq name=JC-Down pcq-burst-rate=786k pcq-burst-threshold=400k pcq-burst-time=15s pcq-classifier=dst-address pcq-rate=512k
+add kind=pcq name=JC-Up pcq-burst-rate=786k pcq-burst-threshold=400k pcq-classifier=src-address pcq-rate=512k
+add kind=pcq name=5M-Download pcq-classifier=dst-address pcq-rate=5M
+add kind=pcq name=5M-Upload pcq-classifier=src-address pcq-rate=5M
+/queue simple add max-limit=5M/5M name=JClub target=ether2
+:for x from 1 to 254 do={/queue simple add name="JC-Usuario-$x" queue=JC-Up/JC-Down parent=JClub target="10.88.21.$x"}
+
